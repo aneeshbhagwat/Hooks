@@ -2,6 +2,9 @@ import React from "react";
 //import { useCounter } from "./useCounter";
 //import { useControlComponents } from "./useControlComponents";
 import ParentComponent from "./componets/ParentComponent";
+import WithoutHooksForm from "./components/WithoutHooksForm";
+//import WithHooksForms from "./components/WithHooksForms";
+
 // function ExampleComponent() {
 //   // Using the useCounter hook
 //   const counter = useCounter(0);
@@ -41,10 +44,19 @@ import ParentComponent from "./componets/ParentComponent";
 
 // export default ExampleComponent;
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <ParentComponent />
+//     </div>
+//   );
+// }
+
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      {/* <WithHooksForms />*/}
+      <WithoutHooksForm />
     </div>
   );
 }
