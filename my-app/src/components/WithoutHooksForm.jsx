@@ -124,20 +124,6 @@ function WithoutHooks() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="confirmPassword">Confirm Password:</label>
-          <input
-            type="password"
-            id="confirmPassword"
-            name="confirmPassword"
-            value={formData.confirmPassword}
-            onChange={handleInputChange}
-          />
-          {submitted && errors.confirmPassword && (
-            <span className="error">{errors.confirmPassword}</span>
-          )}
-        </div>
-
-        <div className="form-group">
           <label htmlFor="gender">Gender:</label>
           <select
             id="gender"
